@@ -1,9 +1,3 @@
-"""
-Camera Blur App - Blur aktif saat tepat 2 jari terangkat
-Akurat untuk telapak menghadap kamera maupun dibalik (punggung tangan)
-Dependencies: pip install opencv-python mediapipe==0.10.9 numpy
-"""
-
 import cv2
 import mediapipe as mp
 import numpy as np
