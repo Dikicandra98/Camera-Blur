@@ -10,7 +10,6 @@ FINGER_COUNT_TRIGGER = 2
 DETECTION_CONF       = 0.7
 TRACKING_CONF        = 0.6
 
-
 FINGERS = [
     (8,  7,  5),   
     (12, 11, 9),   
@@ -19,7 +18,6 @@ FINGERS = [
 ]
 
 THUMB = (4, 3, 2)
-
 
 def is_palm_facing_camera(lm) -> bool:
     """
@@ -37,7 +35,6 @@ def is_palm_facing_camera(lm) -> bool:
     normal = np.cross(v1, v2)
 
     return normal[2] < 0
-
 
 def count_fingers(lm, palm_facing: bool) -> int:
     """
@@ -81,7 +78,6 @@ def count_fingers(lm, palm_facing: bool) -> int:
 
     return count
     
-
 def main():
     hands = mp_hands.Hands(
         static_image_mode=False,
