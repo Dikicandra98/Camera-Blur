@@ -29,8 +29,8 @@ Dibangun menggunakan Python, OpenCV, dan MediaPipe.
 **1. Clone repository ini**
 
 ```bash
-git clone https://github.com/username/camera-blur-app.git
-cd camera-blur-app
+git clone https://github.com/Dikicandra98/Camera-Blur.git
+cd Camera-Blur
 ```
 
 **2. (Opsional tapi disarankan) Buat virtual environment**
