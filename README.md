@@ -1,11 +1,3 @@
-# 🖐️ Camera Blur App
-
-Aplikasi kamera real-time yang mengaktifkan efek **blur** secara otomatis ketika mendeteksi **2 jari** yang terangkat — baik telapak menghadap kamera maupun dibalik (punggung tangan).
-
-Dibangun menggunakan Python, OpenCV, dan MediaPipe.
-
----
-
 ## ✨ Fitur
 
 - Deteksi tangan real-time menggunakan MediaPipe
