@@ -74,7 +74,7 @@ python camera_blur.py
 ## 📁 Struktur Project
 
 ```
-camera-blur-app/
+Camera-Blur/
 ├── camera_blur.py   # File utama aplikasi
 └── README.md
 ```
